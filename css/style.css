@@ -482,3 +482,55 @@ input[type=number] {
 .btn-submit:hover{
   background-color: #e48866;
 }
+
+.login-message{
+  background-color: red;
+  color: #fff;
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+  padding: 15px 0;
+}
+
+#preview{
+  max-width: 300px;
+  max-height: 200px;
+  margin-top: 10px;
+  border: dashed 1px black;
+}
+
+.img{
+  max-width: 150px;
+  max-height: 150px;
+}
+
+.btn{
+  text-decoration: none;
+  color: white;
+  padding: 8px 10px;
+  margin-right: 5px;
+  font: 1.1rem;
+  border: 1px solid transparent;
+  transition: 0.2s;
+}
+
+.--edit{
+  background-color: #f1c40f;
+}
+
+.--edit:hover{
+  color: #f1c40f;
+  background-color: #fff;
+  border: 1px dashed #f1c40f;
+}
+
+
+.--delete{
+  background-color: #e74c3c;
+}
+
+.--delete:hover{
+  color: #e74c3c;
+  background-color: #fff;
+  border: 1px dashed #e74c3c;
+}
