@@ -11,8 +11,8 @@
 
 <body>
   <div class="header">
-    <a href="#" class="logo">Logo</a>
-    <form action="#" method="get">
+    <a href="./index.php" class="logo"><img class="logo-img" src="./image/diet.png" alt="Logo">iDiet</a>
+    <form action="./search.php" method="get">
       <span style="font-size: 1.8rem; color:white">|</span>
       <input type="text" placeholder="Search" class="search-box" name="s">
       <button type="submit" class="search-button"><i class="fas fa-search"></i></button>

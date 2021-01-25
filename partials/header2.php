@@ -14,7 +14,7 @@
 
 <body>
   <div class="header">
-    <a href="#" class="logo">Logo</a>
+    <a href="./index.php" class="logo"><img class="logo-img" src="./image/diet.png" alt="Logo">iDiet</a>
     <a href="./action/logout.php" class="logout"><i class="fas fa-sign-out-alt" style="margin-right: 8px;"></i> Logout</a>
   </div>
   <div class="sidebar">
