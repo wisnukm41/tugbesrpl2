@@ -20,7 +20,7 @@ $recomended = $mysql->query('SELECT image,slug,name FROM diet ORDER BY RAND() LI
             <p style="text-align:justify; height:208px;overflow:hidden">
               <?= $row->description ?>
             </p>
-            <a href="./details?d=<?= $row->slug ?>" class="more-btn">More</a>
+            <a href="./details.php?d=<?= $row->slug ?>" class="more-btn">More</a>
           </div>
         </div>
       </div>
